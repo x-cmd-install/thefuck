@@ -7,13 +7,13 @@ about:
   head: c7e7e1d
   archived: false
   latestVersion: 3.32
-  collectedAt: 2026-09-04T19:57:29Z
+  collectedAt: 2026-09-04T20:44:41Z
 timeline:
   created: 2015-04-08
   lastCommit: 2024-01-25
   lastRelease: 2022-01-02
 popularity:
-  star: 97769
+  star: 97768
   watcher: 813
   fork: 3961
   release: 17
@@ -84,6 +84,69 @@ total:
   openIssue: 308
   commit: 1651
 ---
+path: /home/runner/.x-repo/github.com/nvbn/thefuck
+collectedAt: 2026-09-04T20:44:42Z
+loc:
+  Python:
+    code: 12790
+    comments: 222
+    blanks: 3342
+    files: 416
+  Yaml:
+    code: 22
+    comments: 0
+    blanks: 3
+    files: 1
+  PowerShell:
+    code: 18
+    comments: 0
+    blanks: 4
+    files: 1
+  Ini:
+    code: 8
+    comments: 0
+    blanks: 2
+    files: 1
+  Dockerfile:
+    code: 7
+    comments: 0
+    blanks: 0
+    files: 1
+  Autoconf:
+    code: 2
+    comments: 0
+    blanks: 0
+    files: 1
+  Batch:
+    code: 2
+    comments: 0
+    blanks: 0
+    files: 1
+  ForgeConfig:
+    code: 2
+    comments: 0
+    blanks: 0
+    files: 1
+  Sh:
+    code: 2
+    comments: 1
+    blanks: 1
+    files: 1
+  Markdown:
+    code: 0
+    comments: 439
+    blanks: 122
+    files: 3
+  Text:
+    code: 0
+    comments: 11
+    blanks: 0
+    files: 1
+total:
+  code: 12954
+  comments: 675
+  blanks: 3490
+  files: 428
 ---
 date: "2026-08-24"
 repo:

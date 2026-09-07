@@ -5,15 +5,15 @@ about:
   head: c7e7e1d
   archived: false
   latestVersion: "3.32"
-  collectedAt: 2026-09-07T04:01:45Z
+  collectedAt: 2026-09-07T20:09:59Z
 timeline:
   created: 2015-04-08
   lastCommit: 2024-01-25
   lastRelease: 2022-01-02
 popularity:
-  star: 97771
+  star: 97772
   watcher: 814
-  fork: 3961
+  fork: 3960
   release: 17
   contributor: 180
   pullRequest: 776
@@ -83,7 +83,7 @@ total:
   commit: 1651
 ---
 path: /home/runner/.x-repo/github.com/nvbn/thefuck
-collectedAt: 2026-09-07T04:01:46Z
+collectedAt: 2026-09-07T20:09:59Z
 loc:
   Python:
     code: 12790
@@ -238,7 +238,7 @@ checks:
       - 'Warn: 0 commits out of 29 are checked with a SAST tool'
 ---
 eget:
-  collectedAt: 2026-09-07T04:01:47+00:00
+  collectedAt: 2026-09-07T20:10:00+00:00
   platform:
     darwin/arm64:
       name:  null

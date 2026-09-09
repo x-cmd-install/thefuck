@@ -7,7 +7,7 @@ Magnificent app which corrects your previous console command.
 - **Latest release**: `3.32` (2022-01-02)
 - **Last commit**: 2024-01-25
 - **License**: MIT
-- **Stars**: 97772 · **Forks**: 3960 · **Open issues**: 790 · **Contributors**: 180
+- **Stars**: 97786 · **Forks**: 3960 · **Open issues**: 793 · **Contributors**: 180
 
 ## Installation
 
@@ -19,6 +19,6 @@ See <https://x-cmd.com/install/thefuck> for details.
 
 ## Data
 
-This mirror is auto-maintained by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action). Latest card snapshot: `data/card/260908.yml`. Merged card+release view: `data/latest.report.yml`.
+This mirror is auto-maintained by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action). Latest card snapshot: `data/card/260909.yml`. Merged card+release view: `data/latest.report.yml`.
 
-_Last regenerated: 2026-09-08T10:15:50Z._
+_Last regenerated: 2026-09-09T04:10:42Z._

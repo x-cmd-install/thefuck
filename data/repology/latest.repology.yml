@@ -1,0 +1,924 @@
+- repo: deepin_23
+  subrepo: community
+  srcname: thefuck
+  binnames:
+    - thefuck
+  visiblename: thefuck
+  version: "3.32"
+  origversion: 3.32-0.1
+  status: newest
+  maintainers:
+    - alessio@debian.org
+  categories:
+    - utils
+- repo: deepin_25
+  subrepo: community
+  srcname: thefuck
+  binnames:
+    - thefuck
+  visiblename: thefuck
+  version: "3.32"
+  origversion: 3.32-0.1
+  status: newest
+  maintainers:
+    - alessio@debian.org
+- repo: devuan_unstable
+  subrepo: unstable/main
+  srcname: thefuck
+  binnames:
+    - thefuck
+  visiblename: thefuck
+  version: "3.32"
+  origversion: 3.32-0.4
+  status: newest
+  maintainers:
+    - alessio@debian.org
+  categories:
+    - misc
+- repo: pureos_landing
+  subrepo: landing/main
+  srcname: thefuck
+  binnames:
+    - thefuck
+  visiblename: thefuck
+  version: "3.32"
+  origversion: 3.32-0.3
+  status: newest
+  maintainers:
+    - alessio@debian.org
+  categories:
+    - utils
+- repo: slackbuilds
+  srcname: system/thefuck
+  visiblename: system/thefuck
+  version: "3.32"
+  origversion: null
+  status: newest
+  maintainers:
+    - andrew.clemons@gmail.com
+  categories:
+    - system
+- repo: alpine_edge
+  subrepo: testing
+  srcname: thefuck
+  binname: thefuck
+  visiblename: thefuck
+  version: "3.32"
+  origversion: 3.32-r6
+  status: newest
+  summary: The Fuck is a magnificent app that corrects errors in previous console commands.
+  maintainers:
+    - simon-alpine@fraho.eu
+  licenses:
+    - MIT
+- repo: alpine_edge
+  subrepo: testing
+  srcname: thefuck
+  binname: thefuck-pyc
+  visiblename: thefuck-pyc
+  version: "3.32"
+  origversion: 3.32-r6
+  status: newest
+  summary: Precompiled Python bytecode for thefuck
+  maintainers:
+    - simon-alpine@fraho.eu
+  licenses:
+    - MIT
+- repo: alt_p11
+  srcname: thefuck
+  binnames:
+    - thefuck
+  visiblename: thefuck
+  version: "3.32"
+  origversion: 3.32-alt3
+  status: newest
+  summary: Magnificent app which corrects your previous console command
+  maintainers:
+    - grenka@altlinux.org
+  licenses:
+    - MIT
+  categories:
+    - Other
+- repo: altsisyphus
+  srcname: thefuck
+  binnames:
+    - thefuck
+  visiblename: thefuck
+  version: "3.32"
+  origversion: 3.32-alt4
+  status: newest
+  summary: Magnificent app which corrects your previous console command
+  maintainers:
+    - grenka@altlinux.org
+  licenses:
+    - MIT
+  categories:
+    - Other
+- repo: aosc
+  srcname: app-utils/thefuck
+  binname: thefuck
+  visiblename: thefuck
+  version: "3.32"
+  origversion: 3.32-2
+  status: newest
+  summary: Magnificent app which corrects your previous console command
+  maintainers:
+    - fallback-mnt-aosc@repology
+  categories:
+    - python
+- repo: arch
+  subrepo: extra
+  srcname: thefuck
+  binname: thefuck
+  visiblename: thefuck
+  version: "3.32"
+  origversion: 3.32-13
+  status: newest
+  summary: Magnificent app which corrects your previous console command
+  licenses:
+    - MIT
+- repo: chimera
+  subrepo: user
+  srcname: thefuck
+  binname: thefuck
+  visiblename: thefuck
+  version: "3.32"
+  origversion: 3.32-r2
+  status: newest
+  summary: Command-line tool to correct errors in shell commands
+  licenses:
+    - MIT
+- repo: chimera
+  subrepo: user
+  srcname: thefuck
+  binname: thefuck-doc
+  visiblename: thefuck-doc
+  version: "3.32"
+  origversion: 3.32-r2
+  status: newest
+  summary: Command-line tool to correct errors in shell commands (documentation)
+  licenses:
+    - MIT
+- repo: chimera
+  subrepo: user
+  srcname: thefuck
+  binname: thefuck-pycache
+  visiblename: thefuck-pycache
+  version: "3.32"
+  origversion: 3.32-r2
+  status: newest
+  summary: Command-line tool to correct errors in shell commands (Python bytecode)
+  licenses:
+    - MIT
+- repo: chromebrew
+  srcname: thefuck
+  visiblename: thefuck
+  version: "3.31"
+  origversion: null
+  status: outdated
+  summary: Thef*ck is a magnificent app which corrects your previous console command.
+  licenses:
+    - MIT
+- repo: debian_13
+  subrepo: trixie/main
+  srcname: thefuck
+  binnames:
+    - thefuck
+  visiblename: thefuck
+  version: "3.32"
+  origversion: 3.32-0.3
+  status: newest
+  maintainers:
+    - alessio@debian.org
+  categories:
+    - misc
+- repo: debian_14
+  subrepo: forky/main
+  srcname: thefuck
+  binnames:
+    - thefuck
+  visiblename: thefuck
+  version: "3.32"
+  origversion: 3.32-0.4
+  status: newest
+  maintainers:
+    - alessio@debian.org
+  categories:
+    - misc
+- repo: debian_unstable
+  subrepo: sid/main
+  srcname: thefuck
+  binnames:
+    - thefuck
+  visiblename: thefuck
+  version: "3.32"
+  origversion: 3.32-0.4
+  status: newest
+  maintainers:
+    - alessio@debian.org
+  categories:
+    - misc
+- repo: epel_9
+  srcname: thefuck
+  binnames:
+    - thefuck
+  visiblename: thefuck
+  version: "3.32"
+  origversion: 3.32-10.el9
+  status: newest
+  summary: App that corrects your previous console command
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
+- repo: fedora_39
+  subrepo: release
+  srcname: thefuck
+  binnames:
+    - thefuck
+  visiblename: thefuck
+  version: "3.32"
+  origversion: 3.32-10.fc39
+  status: newest
+  summary: App that corrects your previous console command
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
+- repo: fedora_39
+  subrepo: updates
+  srcname: thefuck
+  binnames:
+    - thefuck
+  visiblename: thefuck
+  version: "3.32"
+  origversion: 3.32-11.fc39
+  status: newest
+  summary: App that corrects your previous console command
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
+- repo: fedora_40
+  subrepo: release
+  srcname: thefuck
+  binnames:
+    - thefuck
+  visiblename: thefuck
+  version: "3.32"
+  origversion: 3.32-11.fc40
+  status: newest
+  summary: App that corrects your previous console command
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
+- repo: fedora_41
+  subrepo: release
+  srcname: thefuck
+  binnames:
+    - thefuck
+  visiblename: thefuck
+  version: "3.32"
+  origversion: 3.32-13.fc41
+  status: newest
+  summary: App that corrects your previous console command
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
+- repo: fedora_41
+  subrepo: updates
+  srcname: thefuck
+  binnames:
+    - thefuck
+  visiblename: thefuck
+  version: "3.32"
+  origversion: 3.32-14.fc41
+  status: newest
+  summary: App that corrects your previous console command
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
+- repo: fedora_42
+  subrepo: release
+  srcname: thefuck
+  binnames:
+    - thefuck
+  visiblename: thefuck
+  version: "3.32"
+  origversion: 3.32-15.fc42
+  status: newest
+  summary: App that corrects your previous console command
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
+- repo: fedora_43
+  subrepo: release
+  srcname: thefuck
+  binnames:
+    - thefuck
+  visiblename: thefuck
+  version: "3.32"
+  origversion: 3.32-19.fc43
+  status: newest
+  summary: App that corrects your previous console command
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
+- repo: fedora_44
+  subrepo: release
+  srcname: thefuck
+  binnames:
+    - thefuck
+  visiblename: thefuck
+  version: "3.32"
+  origversion: 3.32-20.fc44
+  status: newest
+  summary: App that corrects your previous console command
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
+- repo: fedora_rawhide
+  subrepo: development
+  srcname: thefuck
+  binnames:
+    - thefuck
+  visiblename: thefuck
+  version: "3.32"
+  origversion: 3.32-25.fc46
+  status: newest
+  summary: App that corrects your previous console command
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
+- repo: freebsd
+  srcname: misc/thefuck
+  binname: thefuck
+  visiblename: misc/thefuck
+  version: "3.32"
+  origversion: "3.32_2"
+  status: newest
+  summary: App that corrects your previous console command
+  maintainers:
+    - ports@freebsd.org
+  categories:
+    - misc
+- repo: gentoo
+  srcname: app-shells/thefuck
+  visiblename: app-shells/thefuck
+  version: "3.32"
+  origversion: 3.32-r2
+  status: newest
+  summary: Magnificent app which corrects your previous console command
+  maintainers:
+    - maintainer-needed@gentoo.org
+  licenses:
+    - MIT
+  categories:
+    - app-shells
+- repo: gnuguix
+  srcname: thefuck
+  binname: thefuck
+  visiblename: thefuck
+  version: 3.32-0.c7e7e1d
+  origversion: null
+  status: outdated
+  summary: Correct mistyped console command
+- repo: homebrew
+  srcname: thefuck
+  visiblename: thefuck
+  version: "3.32"
+  origversion: null
+  status: newest
+  summary: Programmatically correct mistyped console commands
+- repo: homebrew
+  srcname: thefuck
+  visiblename: thefuck
+  version: HEAD
+  origversion: null
+  status: rolling
+  summary: Programmatically correct mistyped console commands
+- repo: kali_rolling
+  subrepo: main
+  srcname: thefuck
+  binnames:
+    - thefuck
+  visiblename: thefuck
+  version: "3.32"
+  origversion: 3.32-0.4
+  status: newest
+  maintainers:
+    - alessio@debian.org
+  categories:
+    - misc
+- repo: liguros_stable
+  srcname: app-shells/thefuck
+  visiblename: app-shells/thefuck
+  version: "3.32"
+  origversion: 3.32-r2
+  status: newest
+  summary: Magnificent app which corrects your previous console command
+  maintainers:
+    - fallback-mnt-liguros@repology
+  licenses:
+    - MIT
+  categories:
+    - app-shells
+- repo: liguros_develop
+  srcname: app-shells/thefuck
+  visiblename: app-shells/thefuck
+  version: "3.32"
+  origversion: 3.32-r2
+  status: newest
+  summary: Magnificent app which corrects your previous console command
+  maintainers:
+    - fallback-mnt-liguros@repology
+  licenses:
+    - MIT
+  categories:
+    - app-shells
+- repo: macports
+  srcname: python/thefuck
+  binname: thefuck
+  visiblename: thefuck
+  version: "3.32"
+  origversion: null
+  status: newest
+  summary: a magnificent app that corrects errors in previous console commands
+  maintainers:
+    - i0ntempest@macports
+    - i0ntempest@github
+  licenses:
+    - MIT
+  categories:
+    - python
+- repo: manjaro_stable
+  subrepo: extra
+  srcname: thefuck
+  binname: thefuck
+  visiblename: thefuck
+  version: "3.32"
+  origversion: 3.32-13
+  status: newest
+  summary: Magnificent app which corrects your previous console command
+  licenses:
+    - MIT
+- repo: manjaro_testing
+  subrepo: extra
+  srcname: thefuck
+  binname: thefuck
+  visiblename: thefuck
+  version: "3.32"
+  origversion: 3.32-13
+  status: newest
+  summary: Magnificent app which corrects your previous console command
+  licenses:
+    - MIT
+- repo: manjaro_unstable
+  subrepo: extra
+  srcname: thefuck
+  binname: thefuck
+  visiblename: thefuck
+  version: "3.32"
+  origversion: 3.32-13
+  status: newest
+  summary: Magnificent app which corrects your previous console command
+  licenses:
+    - MIT
+- repo: nix_stable_24_05
+  srcname: thefuck
+  visiblename: thefuck
+  version: "3.32"
+  origversion: null
+  status: newest
+  summary: Magnificent app which corrects your previous console command
+  maintainers:
+    - marcus@means.no
+  licenses:
+    - MIT
+- repo: nix_stable_24_11
+  srcname: thefuck
+  visiblename: thefuck
+  version: "3.32"
+  origversion: null
+  status: newest
+  summary: Magnificent app which corrects your previous console command
+  maintainers:
+    - marcus@means.no
+  licenses:
+    - MIT
+- repo: nix_stable_25_05
+  srcname: thefuck
+  visiblename: thefuck
+  version: "3.32"
+  origversion: null
+  status: newest
+  summary: Magnificent app which corrects your previous console command
+  maintainers:
+    - marcus@means.no
+  licenses:
+    - MIT
+- repo: opensuse_leap_15_6
+  subrepo: main/oss
+  srcname: thefuck
+  visiblename: thefuck
+  version: "3.32"
+  origversion: 3.32-bp156.1.1
+  status: newest
+  summary: Correcting console command utility
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
+- repo: parabola
+  subrepo: extra
+  srcname: thefuck
+  binname: thefuck
+  visiblename: thefuck
+  version: "3.32"
+  origversion: 3.32-13
+  status: newest
+  summary: Magnificent app which corrects your previous console command
+  licenses:
+    - MIT
+- repo: parrot
+  subrepo: parrot/main
+  srcname: thefuck
+  binnames:
+    - thefuck
+  visiblename: thefuck
+  version: "3.32"
+  origversion: 3.32-0.3
+  status: newest
+  maintainers:
+    - alessio@debian.org
+  categories:
+    - misc
+- repo: parrot
+  subrepo: parrot-updates/main
+  srcname: thefuck
+  binnames:
+    - thefuck
+  visiblename: thefuck
+  version: "3.32"
+  origversion: 3.32-0.3
+  status: newest
+  maintainers:
+    - alessio@debian.org
+  categories:
+    - misc
+- repo: pypi
+  srcname: thefuck
+  binname: thefuck
+  visiblename: thefuck
+  version: "3.32"
+  origversion: null
+  status: newest
+  summary: Magnificent app which corrects your previous console command
+  maintainers:
+    - nvbn.rm@gmail.com
+- repo: raspbian_stable
+  subrepo: main
+  srcname: thefuck
+  binnames:
+    - thefuck
+  visiblename: thefuck
+  version: "3.32"
+  origversion: 3.32-0.3
+  status: newest
+  maintainers:
+    - alessio@debian.org
+  categories:
+    - misc
+- repo: raspbian_testing
+  subrepo: main
+  srcname: thefuck
+  binnames:
+    - thefuck
+  visiblename: thefuck
+  version: "3.32"
+  origversion: 3.32-0.4
+  status: newest
+  maintainers:
+    - alessio@debian.org
+  categories:
+    - misc
+- repo: solus
+  srcname: thefuck
+  binname: thefuck
+  visiblename: thefuck
+  version: "3.32"
+  origversion: null
+  status: newest
+  summary: Magnificent app which corrects your previous console command
+  maintainers:
+    - maddock.evan@vivaldi.net
+  licenses:
+    - MIT
+  categories:
+    - system.utils
+- repo: t2
+  srcname: thefuck
+  visiblename: thefuck
+  version: "3.32"
+  origversion: null
+  status: newest
+  summary: Corrects errors in previous console commands
+  maintainers:
+    - rene@exactco.de
+  licenses:
+    - MIT
+  categories:
+    - extra/base
+- repo: terra_rawhide
+  srcname: python-thefuck
+  binname: python3-thefuck
+  visiblename: python3-thefuck
+  version: "3.34"
+  origversion: 3.34-1.fcrawhide
+  status: ignored
+  summary: Magnificent app which corrects your previous console command
+  maintainers:
+    - owen@fyralabs.com
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
+- repo: ubuntu_25_04
+  subrepo: plucky/universe
+  srcname: thefuck
+  binnames:
+    - thefuck
+  visiblename: thefuck
+  version: "3.32"
+  origversion: 3.32-0.2
+  status: newest
+  maintainers:
+    - alessio@debian.org
+  categories:
+    - universe/misc
+- repo: ubuntu_25_10
+  subrepo: questing/universe
+  srcname: thefuck
+  binnames:
+    - thefuck
+  visiblename: thefuck
+  version: "3.32"
+  origversion: 3.32-0.4
+  status: newest
+  maintainers:
+    - alessio@debian.org
+  categories:
+    - universe/misc
+- repo: ubuntu_26_04
+  subrepo: resolute/universe
+  srcname: thefuck
+  binnames:
+    - thefuck
+  visiblename: thefuck
+  version: "3.32"
+  origversion: 3.32-0.4
+  status: newest
+  maintainers:
+    - alessio@debian.org
+  categories:
+    - universe/misc
+- repo: ubuntu_26_10
+  subrepo: stonking/universe
+  srcname: thefuck
+  binnames:
+    - thefuck
+  visiblename: thefuck
+  version: "3.32"
+  origversion: 3.32-0.4
+  status: newest
+  maintainers:
+    - alessio@debian.org
+  categories:
+    - universe/misc
+- repo: devuan_4_0
+  subrepo: chimaera/main
+  srcname: thefuck
+  binnames:
+    - thefuck
+  visiblename: thefuck
+  version: "3.29"
+  origversion: 3.29-0.3
+  status: outdated
+  maintainers:
+    - alessio@debian.org
+  categories:
+    - misc
+  vulnerable: true
+- repo: debian_11
+  subrepo: bullseye/main
+  srcname: thefuck
+  binnames:
+    - thefuck
+  visiblename: thefuck
+  version: "3.29"
+  origversion: 3.29-0.3
+  status: outdated
+  maintainers:
+    - alessio@debian.org
+  categories:
+    - misc
+  vulnerable: true
+- repo: debian_12
+  subrepo: bookworm/main
+  srcname: thefuck
+  binnames:
+    - thefuck
+  visiblename: thefuck
+  version: "3.29"
+  origversion: 3.29-0.3
+  status: outdated
+  maintainers:
+    - alessio@debian.org
+  categories:
+    - misc
+  vulnerable: true
+- repo: deepin_unstable
+  subrepo: main
+  srcname: thefuck
+  binnames:
+    - thefuck
+  visiblename: thefuck
+  version: 3.11.1
+  origversion: 3.11.1-2
+  status: outdated
+  maintainers:
+    - alessio@debian.org
+  vulnerable: true
+- repo: deepin_unstable
+  subrepo: main
+  srcname: thefuck
+  binnames:
+    - thefuck
+  visiblename: thefuck
+  version: "3.11"
+  origversion: 3.11-2.1
+  status: legacy
+  maintainers:
+    - alessio@debian.org
+  vulnerable: true
+- repo: pardus_21
+  subrepo: main
+  srcname: thefuck
+  binnames:
+    - thefuck
+  visiblename: thefuck
+  version: "3.29"
+  origversion: 3.29-0.3
+  status: outdated
+  maintainers:
+    - alessio@debian.org
+  categories:
+    - misc
+  vulnerable: true
+- repo: pureos_amber
+  subrepo: amber/main
+  srcname: thefuck
+  binnames:
+    - thefuck
+  visiblename: thefuck
+  version: "3.11"
+  origversion: 3.11-2.1
+  status: outdated
+  maintainers:
+    - alessio@debian.org
+  categories:
+    - utils
+  vulnerable: true
+- repo: pureos_byzantium
+  subrepo: byzantium/main
+  srcname: thefuck
+  binnames:
+    - thefuck
+  visiblename: thefuck
+  version: "3.29"
+  origversion: 3.29-0.3
+  status: outdated
+  maintainers:
+    - alessio@debian.org
+  categories:
+    - utils
+  vulnerable: true
+- repo: raspbian_oldstable
+  subrepo: main
+  srcname: thefuck
+  binnames:
+    - thefuck
+  visiblename: thefuck
+  version: "3.29"
+  origversion: 3.29-0.3
+  status: outdated
+  maintainers:
+    - alessio@debian.org
+  categories:
+    - misc
+  vulnerable: true
+- repo: trisquel_10_0
+  subrepo: nabia/main
+  srcname: thefuck
+  binnames:
+    - thefuck
+  visiblename: thefuck
+  version: "3.29"
+  origversion: 3.29-0.1
+  status: outdated
+  maintainers:
+    - alessio@debian.org
+  categories:
+    - universe/misc
+  vulnerable: true
+- repo: trisquel_11_0
+  subrepo: aramo/main
+  srcname: thefuck
+  binnames:
+    - thefuck
+  visiblename: thefuck
+  version: "3.29"
+  origversion: 3.29-0.3
+  status: outdated
+  maintainers:
+    - alessio@debian.org
+  categories:
+    - universe/misc
+  vulnerable: true
+- repo: ubuntu_16_04
+  subrepo: xenial/universe
+  srcname: thefuck
+  binnames:
+    - thefuck
+  visiblename: thefuck
+  version: "3.2"
+  origversion: 3.2-1
+  status: outdated
+  maintainers:
+    - alessio@debian.org
+  categories:
+    - universe/misc
+  vulnerable: true
+- repo: ubuntu_18_04
+  subrepo: bionic/universe
+  srcname: thefuck
+  binnames:
+    - thefuck
+  visiblename: thefuck
+  version: "3.11"
+  origversion: 3.11-2
+  status: outdated
+  maintainers:
+    - alessio@debian.org
+  categories:
+    - universe/misc
+  vulnerable: true
+- repo: ubuntu_20_04
+  subrepo: focal/universe
+  srcname: thefuck
+  binnames:
+    - thefuck
+  visiblename: thefuck
+  version: "3.29"
+  origversion: 3.29-0.1
+  status: outdated
+  maintainers:
+    - alessio@debian.org
+  categories:
+    - universe/misc
+  vulnerable: true
+- repo: ubuntu_22_04
+  subrepo: jammy/universe
+  srcname: thefuck
+  binnames:
+    - thefuck
+  visiblename: thefuck
+  version: "3.29"
+  origversion: 3.29-0.3
+  status: outdated
+  maintainers:
+    - alessio@debian.org
+  categories:
+    - universe/misc
+  vulnerable: true
+- repo: ubuntu_24_04
+  subrepo: noble/universe
+  srcname: thefuck
+  binnames:
+    - thefuck
+  visiblename: thefuck
+  version: "3.29"
+  origversion: 3.29-0.3ubuntu1
+  status: outdated
+  maintainers:
+    - alessio@debian.org
+  categories:
+    - universe/misc
+  vulnerable: true

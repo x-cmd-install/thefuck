@@ -21,11 +21,10 @@ x install thefuck
 
 - **Latest**: `3.32` (2022-01-02)
 - **Last commit**: 2024-01-25
-- **Published**: 2022-01-02T22:17:40Z
 
 ## Popularity
 
-- **Stars**: 97,790 · **Forks**: 3,960 · **Open issues**: 792 · **Contributors**: 180
+- **Stars**: 97,791 · **Forks**: 3,960 · **Open issues**: 792 · **Contributors**: 180
 
 ## Totals (cumulative)
 
@@ -66,8 +65,8 @@ Lowest-scoring checks:
 Install metadata for thefuck lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `thefuck` is missing, out of date, or installs incorrectly, please open an issue or PR there:
 
 - **Open an issue**: <https://github.com/x-cmd/install/issues/new>
-- **Edit the package entry**: <https://github.com/x-cmd/edit/main/thefuck.yml> (or whichever path the index uses)
+- **Edit the package entry**: <https://github.com/x-cmd/install/edit/main/thefuck.yml> (or whichever path the index uses)
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260910.yml` · 2026-09-10T04:08:05Z._
+_Snapshot: `data/card/260910.yml` · 2026-09-10T15:57:57Z._

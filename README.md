@@ -46,7 +46,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 97,843 · **Forks**: 3,960 · **Open issues**: 792 · **Contributors**: 180
+- **Stars**: 97,842 · **Forks**: 3,959 · **Open issues**: 792 · **Contributors**: 180
 
 ## Totals (cumulative)
 
@@ -56,28 +56,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-14 | 0 | 0 | 1 | 0 | 5 | 0 |
-| last60d | 2026-07-15 | 0 | 0 | 3 | 0 | 6 | 0 |
-| 90d | 2026-06-15 | 0 | 0 | 5 | 0 | 8 | 0 |
-| last180d | 2026-03-17 | 0 | 0 | 38 | 2 | 13 | 0 |
-| 360d | 2025-09-18 | 0 | 0 | 46 | 3 | 26 | 0 |
-| last720d | 2024-09-23 | 0 | 0 | 63 | 7 | 55 | 0 |
-
-## Distribution status
-
-Reported by **73** distros on [repology.org](https://repology.org/project/thefuck). **53** are ✅ on the latest upstream release, **17** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Debian unstable | `3.32` | ✅ latest |
-| Debian 14 | `3.32` | ✅ latest |
-| Debian 13 | `3.32` | ✅ latest |
-| Ubuntu 26.04 LTS | `3.32` | ✅ latest |
-| Ubuntu 24.04 LTS | `3.29` | ⚠️ outdated |
-| Arch | `3.32` | ✅ latest |
-| Homebrew | `3.32` | ✅ latest |
-| Fedora rawhide | `3.32` | ✅ latest |
-| Alpine edge | `3.32` | ✅ latest |
+| 30d | 2026-08-15 | 0 | 0 | 1 | 0 | 5 | 0 |
+| last60d | 2026-07-16 | 0 | 0 | 3 | 0 | 6 | 0 |
+| 90d | 2026-06-16 | 0 | 0 | 5 | 0 | 8 | 0 |
+| last180d | 2026-03-18 | 0 | 0 | 37 | 2 | 13 | 0 |
+| 360d | 2025-09-19 | 0 | 0 | 46 | 3 | 26 | 0 |
+| last720d | 2024-09-24 | 0 | 0 | 63 | 7 | 55 | 0 |
 
 ## Improve this data
 
@@ -88,4 +72,4 @@ Install metadata for thefuck lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260913.yml` · 2026-09-13T04:18:19Z._
+_Snapshot: `data/card/260914.yml` · 2026-09-14T04:25:18Z._

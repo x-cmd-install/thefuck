@@ -1,42 +1,18 @@
-- repo: debian_unstable
-  subrepo: sid/main
+- repo: raspbian_stable
+  subrepo: main
   srcname: thefuck
   binnames:
     - thefuck
   visiblename: thefuck
   version: "3.32"
-  origversion: 3.32-0.5
+  origversion: 3.32-0.3
   status: newest
   maintainers:
     - alessio@debian.org
   categories:
     - misc
-- repo: deepin_23
-  subrepo: community
-  srcname: thefuck
-  binnames:
-    - thefuck
-  visiblename: thefuck
-  version: "3.32"
-  origversion: 3.32-0.1
-  status: newest
-  maintainers:
-    - alessio@debian.org
-  categories:
-    - utils
-- repo: deepin_25
-  subrepo: community
-  srcname: thefuck
-  binnames:
-    - thefuck
-  visiblename: thefuck
-  version: "3.32"
-  origversion: 3.32-0.1
-  status: newest
-  maintainers:
-    - alessio@debian.org
-- repo: devuan_unstable
-  subrepo: unstable/main
+- repo: raspbian_testing
+  subrepo: main
   srcname: thefuck
   binnames:
     - thefuck
@@ -58,19 +34,6 @@
     - andrew.clemons@gmail.com
   categories:
     - system
-- repo: parrot
-  subrepo: parrot-updates/main
-  srcname: thefuck
-  binnames:
-    - thefuck
-  visiblename: thefuck
-  version: "3.32"
-  origversion: 3.32-0.3
-  status: newest
-  maintainers:
-    - alessio@debian.org
-  categories:
-    - misc
 - repo: pureos_landing
   subrepo: landing/main
   srcname: thefuck
@@ -84,77 +47,6 @@
     - alessio@debian.org
   categories:
     - utils
-- repo: raspbian_testing
-  subrepo: main
-  srcname: thefuck
-  binnames:
-    - thefuck
-  visiblename: thefuck
-  version: "3.32"
-  origversion: 3.32-0.5
-  status: newest
-  maintainers:
-    - alessio@debian.org
-  categories:
-    - misc
-- repo: kali_rolling
-  subrepo: main
-  srcname: thefuck
-  binnames:
-    - thefuck
-  visiblename: thefuck
-  version: "3.32"
-  origversion: 3.32-0.5
-  status: newest
-  maintainers:
-    - alessio@debian.org
-  categories:
-    - misc
-- repo: pypi
-  srcname: thefuck
-  binname: thefuck
-  visiblename: thefuck
-  version: "3.32"
-  origversion: null
-  status: newest
-  summary: Magnificent app which corrects your previous console command
-  maintainers:
-    - nvbn.rm@gmail.com
-- repo: raspbian_stable
-  subrepo: main
-  srcname: thefuck
-  binnames:
-    - thefuck
-  visiblename: thefuck
-  version: "3.32"
-  origversion: 3.32-0.3
-  status: newest
-  maintainers:
-    - alessio@debian.org
-  categories:
-    - misc
-- repo: manjaro_testing
-  subrepo: extra
-  srcname: thefuck
-  binname: thefuck
-  visiblename: thefuck
-  version: "3.32"
-  origversion: 3.32-13
-  status: newest
-  summary: Magnificent app which corrects your previous console command
-  licenses:
-    - MIT
-- repo: manjaro_unstable
-  subrepo: extra
-  srcname: thefuck
-  binname: thefuck
-  visiblename: thefuck
-  version: "3.32"
-  origversion: 3.32-13
-  status: newest
-  summary: Magnificent app which corrects your previous console command
-  licenses:
-    - MIT
 - repo: alpine_edge
   subrepo: testing
   srcname: thefuck
@@ -302,6 +194,69 @@
     - alessio@debian.org
   categories:
     - misc
+- repo: debian_unstable
+  subrepo: sid/main
+  srcname: thefuck
+  binnames:
+    - thefuck
+  visiblename: thefuck
+  version: "3.32"
+  origversion: 3.32-0.5
+  status: newest
+  maintainers:
+    - alessio@debian.org
+  categories:
+    - misc
+- repo: deepin_23
+  subrepo: community
+  srcname: thefuck
+  binnames:
+    - thefuck
+  visiblename: thefuck
+  version: "3.32"
+  origversion: 3.32-0.1
+  status: newest
+  maintainers:
+    - alessio@debian.org
+  categories:
+    - utils
+- repo: deepin_25
+  subrepo: community
+  srcname: thefuck
+  binnames:
+    - thefuck
+  visiblename: thefuck
+  version: "3.32"
+  origversion: 3.32-0.1
+  status: newest
+  maintainers:
+    - alessio@debian.org
+- repo: devuan_unstable
+  subrepo: unstable/main
+  srcname: thefuck
+  binnames:
+    - thefuck
+  visiblename: thefuck
+  version: "3.32"
+  origversion: 3.32-0.5
+  status: newest
+  maintainers:
+    - alessio@debian.org
+  categories:
+    - misc
+- repo: ubuntu_26_10
+  subrepo: stonking/universe
+  srcname: thefuck
+  binnames:
+    - thefuck
+  visiblename: thefuck
+  version: "3.32"
+  origversion: 3.32-0.5
+  status: newest
+  maintainers:
+    - alessio@debian.org
+  categories:
+    - universe/misc
 - repo: epel_9
   srcname: thefuck
   binnames:
@@ -480,6 +435,19 @@
   origversion: null
   status: rolling
   summary: Programmatically correct mistyped console commands
+- repo: kali_rolling
+  subrepo: main
+  srcname: thefuck
+  binnames:
+    - thefuck
+  visiblename: thefuck
+  version: "3.32"
+  origversion: 3.32-0.5
+  status: newest
+  maintainers:
+    - alessio@debian.org
+  categories:
+    - misc
 - repo: liguros_stable
   srcname: app-shells/thefuck
   visiblename: app-shells/thefuck
@@ -522,6 +490,28 @@
   categories:
     - python
 - repo: manjaro_stable
+  subrepo: extra
+  srcname: thefuck
+  binname: thefuck
+  visiblename: thefuck
+  version: "3.32"
+  origversion: 3.32-13
+  status: newest
+  summary: Magnificent app which corrects your previous console command
+  licenses:
+    - MIT
+- repo: manjaro_testing
+  subrepo: extra
+  srcname: thefuck
+  binname: thefuck
+  visiblename: thefuck
+  version: "3.32"
+  origversion: 3.32-13
+  status: newest
+  summary: Magnificent app which corrects your previous console command
+  licenses:
+    - MIT
+- repo: manjaro_unstable
   subrepo: extra
   srcname: thefuck
   binname: thefuck
@@ -601,6 +591,29 @@
     - alessio@debian.org
   categories:
     - misc
+- repo: parrot
+  subrepo: parrot-updates/main
+  srcname: thefuck
+  binnames:
+    - thefuck
+  visiblename: thefuck
+  version: "3.32"
+  origversion: 3.32-0.3
+  status: newest
+  maintainers:
+    - alessio@debian.org
+  categories:
+    - misc
+- repo: pypi
+  srcname: thefuck
+  binname: thefuck
+  visiblename: thefuck
+  version: "3.32"
+  origversion: null
+  status: newest
+  summary: Magnificent app which corrects your previous console command
+  maintainers:
+    - nvbn.rm@gmail.com
 - repo: solus
   srcname: thefuck
   binname: thefuck
@@ -676,19 +689,6 @@
   visiblename: thefuck
   version: "3.32"
   origversion: 3.32-0.4
-  status: newest
-  maintainers:
-    - alessio@debian.org
-  categories:
-    - universe/misc
-- repo: ubuntu_26_10
-  subrepo: stonking/universe
-  srcname: thefuck
-  binnames:
-    - thefuck
-  visiblename: thefuck
-  version: "3.32"
-  origversion: 3.32-0.5
   status: newest
   maintainers:
     - alessio@debian.org

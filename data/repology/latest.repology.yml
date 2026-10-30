@@ -1,17 +1,4 @@
-- repo: raspbian_stable
-  subrepo: main
-  srcname: thefuck
-  binnames:
-    - thefuck
-  visiblename: thefuck
-  version: "3.32"
-  origversion: 3.32-0.3
-  status: newest
-  maintainers:
-    - alessio@debian.org
-  categories:
-    - misc
-- repo: raspbian_testing
+- repo: kali_rolling
   subrepo: main
   srcname: thefuck
   binnames:
@@ -24,29 +11,20 @@
     - alessio@debian.org
   categories:
     - misc
-- repo: slackbuilds
-  srcname: system/thefuck
-  visiblename: system/thefuck
+- repo: homebrew
+  srcname: thefuck
+  visiblename: thefuck
   version: "3.32"
   origversion: null
   status: newest
-  maintainers:
-    - andrew.clemons@gmail.com
-  categories:
-    - system
-- repo: pureos_landing
-  subrepo: landing/main
+  summary: Programmatically correct mistyped console commands
+- repo: homebrew
   srcname: thefuck
-  binnames:
-    - thefuck
   visiblename: thefuck
-  version: "3.32"
-  origversion: 3.32-0.3
-  status: newest
-  maintainers:
-    - alessio@debian.org
-  categories:
-    - utils
+  version: HEAD
+  origversion: null
+  status: rolling
+  summary: Programmatically correct mistyped console commands
 - repo: alpine_edge
   subrepo: testing
   srcname: thefuck
@@ -244,19 +222,6 @@
     - alessio@debian.org
   categories:
     - misc
-- repo: ubuntu_26_10
-  subrepo: stonking/universe
-  srcname: thefuck
-  binnames:
-    - thefuck
-  visiblename: thefuck
-  version: "3.32"
-  origversion: 3.32-0.5
-  status: newest
-  maintainers:
-    - alessio@debian.org
-  categories:
-    - universe/misc
 - repo: epel_9
   srcname: thefuck
   binnames:
@@ -421,33 +386,6 @@
     - MIT
   categories:
     - app-shells
-- repo: homebrew
-  srcname: thefuck
-  visiblename: thefuck
-  version: "3.32"
-  origversion: null
-  status: newest
-  summary: Programmatically correct mistyped console commands
-- repo: homebrew
-  srcname: thefuck
-  visiblename: thefuck
-  version: HEAD
-  origversion: null
-  status: rolling
-  summary: Programmatically correct mistyped console commands
-- repo: kali_rolling
-  subrepo: main
-  srcname: thefuck
-  binnames:
-    - thefuck
-  visiblename: thefuck
-  version: "3.32"
-  origversion: 3.32-0.5
-  status: newest
-  maintainers:
-    - alessio@debian.org
-  categories:
-    - misc
 - repo: liguros_stable
   srcname: app-shells/thefuck
   visiblename: app-shells/thefuck
@@ -579,19 +517,6 @@
   licenses:
     - MIT
 - repo: parrot
-  subrepo: parrot/main
-  srcname: thefuck
-  binnames:
-    - thefuck
-  visiblename: thefuck
-  version: "3.32"
-  origversion: 3.32-0.3
-  status: newest
-  maintainers:
-    - alessio@debian.org
-  categories:
-    - misc
-- repo: parrot
   subrepo: parrot-updates/main
   srcname: thefuck
   binnames:
@@ -604,6 +529,32 @@
     - alessio@debian.org
   categories:
     - misc
+- repo: parrot
+  subrepo: parrot/main
+  srcname: thefuck
+  binnames:
+    - thefuck
+  visiblename: thefuck
+  version: "3.32"
+  origversion: 3.32-0.3
+  status: newest
+  maintainers:
+    - alessio@debian.org
+  categories:
+    - misc
+- repo: pureos_landing
+  subrepo: landing/main
+  srcname: thefuck
+  binnames:
+    - thefuck
+  visiblename: thefuck
+  version: "3.32"
+  origversion: 3.32-0.3
+  status: newest
+  maintainers:
+    - alessio@debian.org
+  categories:
+    - utils
 - repo: pypi
   srcname: thefuck
   binname: thefuck
@@ -614,6 +565,42 @@
   summary: Magnificent app which corrects your previous console command
   maintainers:
     - nvbn.rm@gmail.com
+- repo: raspbian_stable
+  subrepo: main
+  srcname: thefuck
+  binnames:
+    - thefuck
+  visiblename: thefuck
+  version: "3.32"
+  origversion: 3.32-0.3
+  status: newest
+  maintainers:
+    - alessio@debian.org
+  categories:
+    - misc
+- repo: raspbian_testing
+  subrepo: main
+  srcname: thefuck
+  binnames:
+    - thefuck
+  visiblename: thefuck
+  version: "3.32"
+  origversion: 3.32-0.5
+  status: newest
+  maintainers:
+    - alessio@debian.org
+  categories:
+    - misc
+- repo: slackbuilds
+  srcname: system/thefuck
+  visiblename: system/thefuck
+  version: "3.32"
+  origversion: null
+  status: newest
+  maintainers:
+    - andrew.clemons@gmail.com
+  categories:
+    - system
 - repo: solus
   srcname: thefuck
   binname: thefuck
@@ -689,6 +676,19 @@
   visiblename: thefuck
   version: "3.32"
   origversion: 3.32-0.4
+  status: newest
+  maintainers:
+    - alessio@debian.org
+  categories:
+    - universe/misc
+- repo: ubuntu_26_10
+  subrepo: stonking/universe
+  srcname: thefuck
+  binnames:
+    - thefuck
+  visiblename: thefuck
+  version: "3.32"
+  origversion: 3.32-0.5
   status: newest
   maintainers:
     - alessio@debian.org

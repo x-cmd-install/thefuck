@@ -1,5 +1,15 @@
-- repo: kali_rolling
-  subrepo: main
+- repo: slackbuilds
+  srcname: system/thefuck
+  visiblename: system/thefuck
+  version: "3.32"
+  origversion: null
+  status: newest
+  maintainers:
+    - andrew.clemons@gmail.com
+  categories:
+    - system
+- repo: debian_unstable
+  subrepo: sid/main
   srcname: thefuck
   binnames:
     - thefuck
@@ -11,20 +21,6 @@
     - alessio@debian.org
   categories:
     - misc
-- repo: homebrew
-  srcname: thefuck
-  visiblename: thefuck
-  version: "3.32"
-  origversion: null
-  status: newest
-  summary: Programmatically correct mistyped console commands
-- repo: homebrew
-  srcname: thefuck
-  visiblename: thefuck
-  version: HEAD
-  origversion: null
-  status: rolling
-  summary: Programmatically correct mistyped console commands
 - repo: alpine_edge
   subrepo: testing
   srcname: thefuck
@@ -161,19 +157,6 @@
     - misc
 - repo: debian_14
   subrepo: forky/main
-  srcname: thefuck
-  binnames:
-    - thefuck
-  visiblename: thefuck
-  version: "3.32"
-  origversion: 3.32-0.5
-  status: newest
-  maintainers:
-    - alessio@debian.org
-  categories:
-    - misc
-- repo: debian_unstable
-  subrepo: sid/main
   srcname: thefuck
   binnames:
     - thefuck
@@ -386,6 +369,33 @@
     - MIT
   categories:
     - app-shells
+- repo: homebrew
+  srcname: thefuck
+  visiblename: thefuck
+  version: "3.32"
+  origversion: null
+  status: newest
+  summary: Programmatically correct mistyped console commands
+- repo: homebrew
+  srcname: thefuck
+  visiblename: thefuck
+  version: HEAD
+  origversion: null
+  status: rolling
+  summary: Programmatically correct mistyped console commands
+- repo: kali_rolling
+  subrepo: main
+  srcname: thefuck
+  binnames:
+    - thefuck
+  visiblename: thefuck
+  version: "3.32"
+  origversion: 3.32-0.5
+  status: newest
+  maintainers:
+    - alessio@debian.org
+  categories:
+    - misc
 - repo: liguros_stable
   srcname: app-shells/thefuck
   visiblename: app-shells/thefuck
@@ -433,7 +443,7 @@
   binname: thefuck
   visiblename: thefuck
   version: "3.32"
-  origversion: 3.32-13
+  origversion: 3.32-5
   status: newest
   summary: Magnificent app which corrects your previous console command
   licenses:
@@ -444,7 +454,7 @@
   binname: thefuck
   visiblename: thefuck
   version: "3.32"
-  origversion: 3.32-13
+  origversion: 3.32-5
   status: newest
   summary: Magnificent app which corrects your previous console command
   licenses:
@@ -591,16 +601,6 @@
     - alessio@debian.org
   categories:
     - misc
-- repo: slackbuilds
-  srcname: system/thefuck
-  visiblename: system/thefuck
-  version: "3.32"
-  origversion: null
-  status: newest
-  maintainers:
-    - andrew.clemons@gmail.com
-  categories:
-    - system
 - repo: solus
   srcname: thefuck
   binname: thefuck
@@ -694,6 +694,30 @@
     - alessio@debian.org
   categories:
     - universe/misc
+- repo: deepin_unstable
+  subrepo: main
+  srcname: thefuck
+  binnames:
+    - thefuck
+  visiblename: thefuck
+  version: "3.11"
+  origversion: 3.11-2.1
+  status: legacy
+  maintainers:
+    - alessio@debian.org
+  vulnerable: true
+- repo: deepin_unstable
+  subrepo: main
+  srcname: thefuck
+  binnames:
+    - thefuck
+  visiblename: thefuck
+  version: 3.11.1
+  origversion: 3.11.1-2
+  status: outdated
+  maintainers:
+    - alessio@debian.org
+  vulnerable: true
 - repo: debian_11
   subrepo: bullseye/main
   srcname: thefuck
@@ -721,30 +745,6 @@
     - alessio@debian.org
   categories:
     - misc
-  vulnerable: true
-- repo: deepin_unstable
-  subrepo: main
-  srcname: thefuck
-  binnames:
-    - thefuck
-  visiblename: thefuck
-  version: 3.11.1
-  origversion: 3.11.1-2
-  status: outdated
-  maintainers:
-    - alessio@debian.org
-  vulnerable: true
-- repo: deepin_unstable
-  subrepo: main
-  srcname: thefuck
-  binnames:
-    - thefuck
-  visiblename: thefuck
-  version: "3.11"
-  origversion: 3.11-2.1
-  status: legacy
-  maintainers:
-    - alessio@debian.org
   vulnerable: true
 - repo: devuan_4_0
   subrepo: chimaera/main

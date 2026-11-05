@@ -30,9 +30,9 @@ x install thefuck
 
 评分最低的几项:
 
+- **Packaging** (-1/10) — packaging workflow not detected
 - **Maintained** (0/10) — 0 commit(s) and 0 issue activity found in the last 90 days -- score normalized to 0
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
-- **Packaging** (-1/10) — packaging workflow not detected
 
 ## 源代码
 
@@ -46,22 +46,22 @@ x install thefuck
 
 ## 流行度
 
-- **Star**: 97,944 · **Fork**: 3,979 · **开放 issue**: 799 · **贡献者**: 180
+- **Star**: 97,946 · **Fork**: 3,980 · **开放 issue**: 799 · **贡献者**: 180
 
 ## 累计统计
 
-- **发布数**: 17 · **已合并 PR**: 482 · **开放 PR**: 153 · **已关闭 issue**: 483 · **开放 issue**: 316 · **提交数**: 1651
+- **发布数**: 17 · **已合并 PR**: 482 · **开放 PR**: 154 · **已关闭 issue**: 483 · **开放 issue**: 316 · **提交数**: 1651
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-05 | 0 | 0 | 2 | 0 | 6 | 0 |
-| last60d | 2026-09-05 | 0 | 0 | 5 | 0 | 10 | 0 |
-| 90d | 2026-08-06 | 0 | 0 | 6 | 0 | 13 | 0 |
-| last180d | 2026-05-08 | 0 | 0 | 38 | 0 | 15 | 0 |
-| 360d | 2025-11-09 | 0 | 0 | 50 | 3 | 28 | 0 |
-| last720d | 2024-11-14 | 0 | 0 | 66 | 6 | 61 | 0 |
+| 30d | 2026-10-06 | 0 | 0 | 3 | 0 | 6 | 0 |
+| last60d | 2026-09-06 | 0 | 0 | 6 | 0 | 10 | 0 |
+| 90d | 2026-08-07 | 0 | 0 | 7 | 0 | 12 | 0 |
+| last180d | 2026-05-09 | 0 | 0 | 37 | 0 | 15 | 0 |
+| 360d | 2025-11-10 | 0 | 0 | 51 | 3 | 28 | 0 |
+| last720d | 2024-11-15 | 0 | 0 | 67 | 6 | 61 | 0 |
 
 ## 发行版状态
 
@@ -88,4 +88,4 @@ thefuck 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261104.yml` · 2026-11-04T05:46:39Z._
+_数据快照: `data/card/261105.yml` · 2026-11-05T06:05:04Z._

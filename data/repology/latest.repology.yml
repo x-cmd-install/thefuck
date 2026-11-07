@@ -1,26 +1,245 @@
-- repo: slackbuilds
-  srcname: system/thefuck
-  visiblename: system/thefuck
-  version: "3.32"
-  origversion: null
-  status: newest
+- repo: pardus_21
+  subrepo: main
+  srcname: thefuck
+  binnames:
+    - thefuck
+  visiblename: thefuck
+  version: "3.29"
+  origversion: 3.29-0.3
+  status: outdated
   maintainers:
-    - andrew.clemons@gmail.com
+    - alessio@debian.org
   categories:
-    - system
-- repo: debian_unstable
-  subrepo: sid/main
+    - misc
+  vulnerable: true
+- repo: pureos_amber
+  subrepo: amber/main
+  srcname: thefuck
+  binnames:
+    - thefuck
+  visiblename: thefuck
+  version: "3.11"
+  origversion: 3.11-2.1
+  status: outdated
+  maintainers:
+    - alessio@debian.org
+  categories:
+    - utils
+  vulnerable: true
+- repo: pureos_byzantium
+  subrepo: byzantium/main
+  srcname: thefuck
+  binnames:
+    - thefuck
+  visiblename: thefuck
+  version: "3.29"
+  origversion: 3.29-0.3
+  status: outdated
+  maintainers:
+    - alessio@debian.org
+  categories:
+    - utils
+  vulnerable: true
+- repo: debian_11
+  subrepo: bullseye/main
+  srcname: thefuck
+  binnames:
+    - thefuck
+  visiblename: thefuck
+  version: "3.29"
+  origversion: 3.29-0.3
+  status: outdated
+  maintainers:
+    - alessio@debian.org
+  categories:
+    - misc
+  vulnerable: true
+- repo: debian_12
+  subrepo: bookworm/main
+  srcname: thefuck
+  binnames:
+    - thefuck
+  visiblename: thefuck
+  version: "3.29"
+  origversion: 3.29-0.3
+  status: outdated
+  maintainers:
+    - alessio@debian.org
+  categories:
+    - misc
+  vulnerable: true
+- repo: deepin_unstable
+  subrepo: main
+  srcname: thefuck
+  binnames:
+    - thefuck
+  visiblename: thefuck
+  version: 3.11.1
+  origversion: 3.11.1-2
+  status: outdated
+  maintainers:
+    - alessio@debian.org
+  vulnerable: true
+- repo: deepin_unstable
+  subrepo: main
+  srcname: thefuck
+  binnames:
+    - thefuck
+  visiblename: thefuck
+  version: "3.11"
+  origversion: 3.11-2.1
+  status: legacy
+  maintainers:
+    - alessio@debian.org
+  vulnerable: true
+- repo: devuan_4_0
+  subrepo: chimaera/main
+  srcname: thefuck
+  binnames:
+    - thefuck
+  visiblename: thefuck
+  version: "3.29"
+  origversion: 3.29-0.3
+  status: outdated
+  maintainers:
+    - alessio@debian.org
+  categories:
+    - misc
+  vulnerable: true
+- repo: raspbian_oldstable
+  subrepo: main
+  srcname: thefuck
+  binnames:
+    - thefuck
+  visiblename: thefuck
+  version: "3.29"
+  origversion: 3.29-0.3
+  status: outdated
+  maintainers:
+    - alessio@debian.org
+  categories:
+    - misc
+  vulnerable: true
+- repo: ubuntu_16_04
+  subrepo: xenial/universe
+  srcname: thefuck
+  binnames:
+    - thefuck
+  visiblename: thefuck
+  version: "3.2"
+  origversion: 3.2-1
+  status: outdated
+  maintainers:
+    - alessio@debian.org
+  categories:
+    - universe/misc
+  vulnerable: true
+- repo: ubuntu_18_04
+  subrepo: bionic/universe
+  srcname: thefuck
+  binnames:
+    - thefuck
+  visiblename: thefuck
+  version: "3.11"
+  origversion: 3.11-2
+  status: outdated
+  maintainers:
+    - alessio@debian.org
+  categories:
+    - universe/misc
+  vulnerable: true
+- repo: ubuntu_20_04
+  subrepo: focal/universe
+  srcname: thefuck
+  binnames:
+    - thefuck
+  visiblename: thefuck
+  version: "3.29"
+  origversion: 3.29-0.1
+  status: outdated
+  maintainers:
+    - alessio@debian.org
+  categories:
+    - universe/misc
+  vulnerable: true
+- repo: ubuntu_22_04
+  subrepo: jammy/universe
+  srcname: thefuck
+  binnames:
+    - thefuck
+  visiblename: thefuck
+  version: "3.29"
+  origversion: 3.29-0.3
+  status: outdated
+  maintainers:
+    - alessio@debian.org
+  categories:
+    - universe/misc
+  vulnerable: true
+- repo: ubuntu_24_04
+  subrepo: noble/universe
+  srcname: thefuck
+  binnames:
+    - thefuck
+  visiblename: thefuck
+  version: "3.29"
+  origversion: 3.29-0.3ubuntu1
+  status: outdated
+  maintainers:
+    - alessio@debian.org
+  categories:
+    - universe/misc
+  vulnerable: true
+- repo: parabola
+  subrepo: extra
+  srcname: thefuck
+  binname: thefuck
+  visiblename: thefuck
+  version: "3.32"
+  origversion: 3.32-13
+  status: newest
+  summary: Magnificent app which corrects your previous console command
+  licenses:
+    - MIT
+- repo: parrot
+  subrepo: parrot/main
   srcname: thefuck
   binnames:
     - thefuck
   visiblename: thefuck
   version: "3.32"
-  origversion: 3.32-0.5
+  origversion: 3.32-0.3
   status: newest
   maintainers:
     - alessio@debian.org
   categories:
     - misc
+- repo: parrot
+  subrepo: parrot-updates/main
+  srcname: thefuck
+  binnames:
+    - thefuck
+  visiblename: thefuck
+  version: "3.32"
+  origversion: 3.32-0.3
+  status: newest
+  maintainers:
+    - alessio@debian.org
+  categories:
+    - misc
+- repo: pureos_landing
+  subrepo: landing/main
+  srcname: thefuck
+  binnames:
+    - thefuck
+  visiblename: thefuck
+  version: "3.32"
+  origversion: 3.32-0.3
+  status: newest
+  maintainers:
+    - alessio@debian.org
+  categories:
+    - utils
 - repo: alpine_edge
   subrepo: testing
   srcname: thefuck
@@ -157,6 +376,31 @@
     - misc
 - repo: debian_14
   subrepo: forky/main
+  srcname: thefuck
+  binnames:
+    - thefuck
+  visiblename: thefuck
+  version: "3.32"
+  origversion: 3.32-0.5
+  status: newest
+  maintainers:
+    - alessio@debian.org
+  categories:
+    - misc
+- repo: opensuse_leap_15_6
+  subrepo: main/oss
+  srcname: thefuck
+  visiblename: thefuck
+  version: "3.32"
+  origversion: 3.32-bp156.1.1
+  status: newest
+  summary: Correcting console command utility
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
+- repo: debian_unstable
+  subrepo: sid/main
   srcname: thefuck
   binnames:
     - thefuck
@@ -443,7 +687,7 @@
   binname: thefuck
   visiblename: thefuck
   version: "3.32"
-  origversion: 3.32-5
+  origversion: 3.32-13
   status: newest
   summary: Magnificent app which corrects your previous console command
   licenses:
@@ -454,7 +698,7 @@
   binname: thefuck
   visiblename: thefuck
   version: "3.32"
-  origversion: 3.32-5
+  origversion: 3.32-13
   status: newest
   summary: Magnificent app which corrects your previous console command
   licenses:
@@ -503,68 +747,6 @@
     - marcus@means.no
   licenses:
     - MIT
-- repo: opensuse_leap_15_6
-  subrepo: main/oss
-  srcname: thefuck
-  visiblename: thefuck
-  version: "3.32"
-  origversion: 3.32-bp156.1.1
-  status: newest
-  summary: Correcting console command utility
-  licenses:
-    - MIT
-  categories:
-    - Unspecified
-- repo: parabola
-  subrepo: extra
-  srcname: thefuck
-  binname: thefuck
-  visiblename: thefuck
-  version: "3.32"
-  origversion: 3.32-13
-  status: newest
-  summary: Magnificent app which corrects your previous console command
-  licenses:
-    - MIT
-- repo: parrot
-  subrepo: parrot-updates/main
-  srcname: thefuck
-  binnames:
-    - thefuck
-  visiblename: thefuck
-  version: "3.32"
-  origversion: 3.32-0.3
-  status: newest
-  maintainers:
-    - alessio@debian.org
-  categories:
-    - misc
-- repo: parrot
-  subrepo: parrot/main
-  srcname: thefuck
-  binnames:
-    - thefuck
-  visiblename: thefuck
-  version: "3.32"
-  origversion: 3.32-0.3
-  status: newest
-  maintainers:
-    - alessio@debian.org
-  categories:
-    - misc
-- repo: pureos_landing
-  subrepo: landing/main
-  srcname: thefuck
-  binnames:
-    - thefuck
-  visiblename: thefuck
-  version: "3.32"
-  origversion: 3.32-0.3
-  status: newest
-  maintainers:
-    - alessio@debian.org
-  categories:
-    - utils
 - repo: pypi
   srcname: thefuck
   binname: thefuck
@@ -601,6 +783,16 @@
     - alessio@debian.org
   categories:
     - misc
+- repo: slackbuilds
+  srcname: system/thefuck
+  visiblename: system/thefuck
+  version: "3.32"
+  origversion: null
+  status: newest
+  maintainers:
+    - andrew.clemons@gmail.com
+  categories:
+    - system
 - repo: solus
   srcname: thefuck
   binname: thefuck
@@ -694,195 +886,16 @@
     - alessio@debian.org
   categories:
     - universe/misc
-- repo: deepin_unstable
-  subrepo: main
+- repo: ubuntu_27_04
+  subrepo: tenacious/universe
   srcname: thefuck
   binnames:
     - thefuck
   visiblename: thefuck
-  version: "3.11"
-  origversion: 3.11-2.1
-  status: legacy
-  maintainers:
-    - alessio@debian.org
-  vulnerable: true
-- repo: deepin_unstable
-  subrepo: main
-  srcname: thefuck
-  binnames:
-    - thefuck
-  visiblename: thefuck
-  version: 3.11.1
-  origversion: 3.11.1-2
-  status: outdated
-  maintainers:
-    - alessio@debian.org
-  vulnerable: true
-- repo: debian_11
-  subrepo: bullseye/main
-  srcname: thefuck
-  binnames:
-    - thefuck
-  visiblename: thefuck
-  version: "3.29"
-  origversion: 3.29-0.3
-  status: outdated
-  maintainers:
-    - alessio@debian.org
-  categories:
-    - misc
-  vulnerable: true
-- repo: debian_12
-  subrepo: bookworm/main
-  srcname: thefuck
-  binnames:
-    - thefuck
-  visiblename: thefuck
-  version: "3.29"
-  origversion: 3.29-0.3
-  status: outdated
-  maintainers:
-    - alessio@debian.org
-  categories:
-    - misc
-  vulnerable: true
-- repo: devuan_4_0
-  subrepo: chimaera/main
-  srcname: thefuck
-  binnames:
-    - thefuck
-  visiblename: thefuck
-  version: "3.29"
-  origversion: 3.29-0.3
-  status: outdated
-  maintainers:
-    - alessio@debian.org
-  categories:
-    - misc
-  vulnerable: true
-- repo: pardus_21
-  subrepo: main
-  srcname: thefuck
-  binnames:
-    - thefuck
-  visiblename: thefuck
-  version: "3.29"
-  origversion: 3.29-0.3
-  status: outdated
-  maintainers:
-    - alessio@debian.org
-  categories:
-    - misc
-  vulnerable: true
-- repo: pureos_amber
-  subrepo: amber/main
-  srcname: thefuck
-  binnames:
-    - thefuck
-  visiblename: thefuck
-  version: "3.11"
-  origversion: 3.11-2.1
-  status: outdated
-  maintainers:
-    - alessio@debian.org
-  categories:
-    - utils
-  vulnerable: true
-- repo: pureos_byzantium
-  subrepo: byzantium/main
-  srcname: thefuck
-  binnames:
-    - thefuck
-  visiblename: thefuck
-  version: "3.29"
-  origversion: 3.29-0.3
-  status: outdated
-  maintainers:
-    - alessio@debian.org
-  categories:
-    - utils
-  vulnerable: true
-- repo: raspbian_oldstable
-  subrepo: main
-  srcname: thefuck
-  binnames:
-    - thefuck
-  visiblename: thefuck
-  version: "3.29"
-  origversion: 3.29-0.3
-  status: outdated
-  maintainers:
-    - alessio@debian.org
-  categories:
-    - misc
-  vulnerable: true
-- repo: ubuntu_16_04
-  subrepo: xenial/universe
-  srcname: thefuck
-  binnames:
-    - thefuck
-  visiblename: thefuck
-  version: "3.2"
-  origversion: 3.2-1
-  status: outdated
+  version: "3.32"
+  origversion: 3.32-0.5
+  status: newest
   maintainers:
     - alessio@debian.org
   categories:
     - universe/misc
-  vulnerable: true
-- repo: ubuntu_18_04
-  subrepo: bionic/universe
-  srcname: thefuck
-  binnames:
-    - thefuck
-  visiblename: thefuck
-  version: "3.11"
-  origversion: 3.11-2
-  status: outdated
-  maintainers:
-    - alessio@debian.org
-  categories:
-    - universe/misc
-  vulnerable: true
-- repo: ubuntu_20_04
-  subrepo: focal/universe
-  srcname: thefuck
-  binnames:
-    - thefuck
-  visiblename: thefuck
-  version: "3.29"
-  origversion: 3.29-0.1
-  status: outdated
-  maintainers:
-    - alessio@debian.org
-  categories:
-    - universe/misc
-  vulnerable: true
-- repo: ubuntu_22_04
-  subrepo: jammy/universe
-  srcname: thefuck
-  binnames:
-    - thefuck
-  visiblename: thefuck
-  version: "3.29"
-  origversion: 3.29-0.3
-  status: outdated
-  maintainers:
-    - alessio@debian.org
-  categories:
-    - universe/misc
-  vulnerable: true
-- repo: ubuntu_24_04
-  subrepo: noble/universe
-  srcname: thefuck
-  binnames:
-    - thefuck
-  visiblename: thefuck
-  version: "3.29"
-  origversion: 3.29-0.3ubuntu1
-  status: outdated
-  maintainers:
-    - alessio@debian.org
-  categories:
-    - universe/misc
-  vulnerable: true

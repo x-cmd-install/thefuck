@@ -46,7 +46,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 97,958 · **Forks**: 3,978 · **Open issues**: 799 · **Contributors**: 180
+- **Stars**: 97,955 · **Forks**: 3,978 · **Open issues**: 799 · **Contributors**: 180
 
 ## Totals (cumulative)
 
@@ -56,12 +56,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-13 | 0 | 0 | 3 | 0 | 6 | 0 |
-| last60d | 2026-09-13 | 0 | 0 | 6 | 0 | 7 | 0 |
-| 90d | 2026-08-14 | 0 | 0 | 7 | 0 | 12 | 0 |
-| last180d | 2026-05-16 | 0 | 0 | 31 | 0 | 15 | 0 |
-| 360d | 2025-11-17 | 0 | 0 | 51 | 3 | 28 | 0 |
-| last720d | 2024-11-22 | 0 | 0 | 67 | 6 | 61 | 0 |
+| 30d | 2026-10-14 | 0 | 0 | 3 | 0 | 6 | 0 |
+| last60d | 2026-09-14 | 0 | 0 | 6 | 0 | 7 | 0 |
+| 90d | 2026-08-15 | 0 | 0 | 7 | 0 | 12 | 0 |
+| last180d | 2026-05-17 | 0 | 0 | 30 | 0 | 15 | 0 |
+| 360d | 2025-11-18 | 0 | 0 | 51 | 3 | 28 | 0 |
+| last720d | 2024-11-23 | 0 | 0 | 67 | 6 | 61 | 0 |
 
 ## Distribution status
 
@@ -88,4 +88,4 @@ Install metadata for thefuck lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261112.yml` · 2026-11-12T06:47:23Z._
+_Snapshot: `data/card/261113.yml` · 2026-11-13T06:02:49Z._

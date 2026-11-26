@@ -46,7 +46,7 @@ x install thefuck
 
 ## 流行度
 
-- **Star**: 97,966 · **Fork**: 3,964 · **开放 issue**: 799 · **贡献者**: 180
+- **Star**: 97,974 · **Fork**: 3,963 · **开放 issue**: 799 · **贡献者**: 180
 
 ## 累计统计
 
@@ -56,28 +56,12 @@ x install thefuck
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-26 | 0 | 0 | 5 | 0 | 1 | 0 |
-| last60d | 2026-09-26 | 0 | 0 | 5 | 0 | 7 | 0 |
-| 90d | 2026-08-27 | 0 | 0 | 9 | 0 | 11 | 0 |
-| last180d | 2026-05-29 | 0 | 0 | 22 | 0 | 15 | 0 |
-| 360d | 2025-11-30 | 0 | 0 | 53 | 3 | 28 | 0 |
-| last720d | 2024-12-05 | 0 | 0 | 68 | 6 | 61 | 0 |
-
-## 发行版状态
-
-在 [repology.org](https://repology.org/project/thefuck) 上共有 **69** 个发行版报告此项目。**55** 个 ✅ 已是最新上游版本，**12** 个 ⚠️ 使用旧版本。
-
-| 发行版 | 版本 | 状态 |
-|--------|------|------|
-| Debian unstable | `3.32` | ✅ latest |
-| Debian 14 | `3.32` | ✅ latest |
-| Debian 13 | `3.32` | ✅ latest |
-| Ubuntu 26.04 LTS | `3.32` | ✅ latest |
-| Ubuntu 24.04 LTS | `3.29` | ⚠️ outdated |
-| Arch | `3.32` | ✅ latest |
-| Homebrew | `3.32` | ✅ latest |
-| Fedora rawhide | `3.32` | ✅ latest |
-| Alpine edge | `3.32` | ✅ latest |
+| 30d | 2026-10-27 | 0 | 0 | 4 | 0 | 1 | 0 |
+| last60d | 2026-09-27 | 0 | 0 | 5 | 0 | 7 | 0 |
+| 90d | 2026-08-28 | 0 | 0 | 8 | 0 | 11 | 0 |
+| last180d | 2026-05-30 | 0 | 0 | 21 | 0 | 15 | 0 |
+| 360d | 2025-12-01 | 0 | 0 | 53 | 3 | 28 | 0 |
+| last720d | 2024-12-06 | 0 | 0 | 68 | 6 | 61 | 0 |
 
 ## 改进这些数据
 
@@ -88,4 +72,4 @@ thefuck 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261125.yml` · 2026-11-25T07:56:53Z._
+_数据快照: `data/card/261126.yml` · 2026-11-26T07:48:31Z._
